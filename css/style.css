@@ -10,7 +10,6 @@ body {
   background: url("../assets/pic.gif") no-repeat;
   background-position: center;
   margin-top: 2rem;
-
   /*     
       animation: like-gif steps(100) 1s infinite both; */
 }
