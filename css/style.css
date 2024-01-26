@@ -1,0 +1,29 @@
+.like {
+    display: block;
+    width: 400px; 
+    height: 400px;
+    margin:0 auto;
+    background: url("../assets/pic.gif")  no-repeat;
+    background-position: center;
+    
+
+/*     
+      animation: like-gif steps(100) 1s infinite both; */
+}
+.pause {
+    animation-play-state: paused;
+}
+div {
+  width:100px;
+  margin:0 auto;
+  text-align:center;
+}
+
+@keyframes like-gif {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
