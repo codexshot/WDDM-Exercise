@@ -1,22 +1,25 @@
-.like {
-    display: block;
-    width: 400px; 
-    height: 400px;
-    margin:0 auto;
-    background: url("../assets/pic.gif")  no-repeat;
-    background-position: center;
-    
+body {
+  background-color: beige;
+}
 
-/*     
+.like {
+  display: block;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  background: url("../assets/pic.gif") no-repeat;
+  background-position: center;
+
+  /*     
       animation: like-gif steps(100) 1s infinite both; */
 }
 .pause {
-    animation-play-state: paused;
+  animation-play-state: paused;
 }
 div {
-  width:100px;
-  margin:0 auto;
-  text-align:center;
+  width: 100px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 @keyframes like-gif {
